@@ -16,7 +16,7 @@ function renderBooks(books) {
     main.appendChild(h2)
   })
 }
-
+renderBooks();
 document.addEventListener('DOMContentLoaded', function() {
   fetchBooks()
 })
